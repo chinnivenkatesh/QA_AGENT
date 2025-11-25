@@ -78,7 +78,7 @@ ollama pull tinyllama
 Create a `.env` file in the root directory with the following settings:
 
 ```env
-OLLAMA_BASE_URL="http://localhost:11434"
+OLLAMA_BASE_URL="http://localhost:XXXX"
 OLLAMA_MODEL="llama3" 
 # Change to "tinyllama" if using the smaller model
 EMBEDDING_MODEL_NAME="all-MiniLM-L6-v2"
