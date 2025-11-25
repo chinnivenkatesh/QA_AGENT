@@ -1,0 +1,9 @@
+UI/UX Style Guide
+
+1. Form Validation:
+   - All form validation errors must be displayed in **red text** (using the CSS class '.error').
+   - Error messages must be displayed immediately below the field that failed validation.
+
+2. Button Styling:
+   - The final "Pay Now" button (id="pay-now-btn") must have a **green background**.
+   - All other action buttons (like 'Apply') should be blue.

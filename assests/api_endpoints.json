@@ -1,0 +1,24 @@
+{
+  "API_ENDPOINTS": {
+    "POST /apply_coupon": {
+      "description": "API to validate and apply a discount code.",
+      "request_body": {
+        "code": "string"
+      },
+      "response": {
+        "status": "success | invalid"
+      }
+    },
+    "POST /submit_order": {
+      "description": "API to finalize the order and process payment.",
+      "request_body": {
+        "name": "string",
+        "email": "string",
+        "shipping": "string"
+      },
+      "response": {
+        "status": "success | validation_error"
+      }
+    }
+  }
+}
